@@ -17,3 +17,5 @@ Route::get('/', function () {
 
 Route::get('/login','LoginController@index')->name('login.index');
 Route::post('/login','LoginController@verify')->name('login.verify');
+
+Route::get('/system', 'SystemController@index')->name('system.index');

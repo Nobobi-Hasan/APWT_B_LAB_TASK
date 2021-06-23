@@ -20,4 +20,4 @@ Route::post('/login','LoginController@verify')->name('login.verify');
 Route::get('/system', 'SystemController@index')->name('system.index');
 
 Route::get('/registration', 'RegistrationController@index')->name('registration.index');
-Route::post('/registration', 'RegistrationController@verify')->name('registration.verify');
+Route::post('/registration', 'RegistrationController@insert')->name('registration.insert');

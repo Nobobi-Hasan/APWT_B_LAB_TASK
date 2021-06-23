@@ -8,8 +8,8 @@
 			@csrf
     		<h1>Register Form</h1>
 
-    			<label for="full-name">Full Name :</label>
-				<input type="text" placeholder="Enter Name" name="full-name" id="full-name" > <br> <br>
+    			<label for="fullname">Full Name :</label>
+				<input type="text" placeholder="Enter Name" name="fullname" id="fullname" > <br> <br>
 
     			<label for="username">Username :</label>
 				<input type="text" placeholder="Enter Username" name="username" id="username" > <br> <br>
@@ -20,8 +20,8 @@
 				<label for="password">Password :</label>
 				<input type="password" placeholder="Enter Password" name="password" id="password" > <br> <br>
 
-				<label for="con-pass">Confirm Password :</label>
-				<input type="password" placeholder="Repeat Password" name="con-pass" id="con-pass" > <br> <br>
+				<label for="conpass">Confirm Password :</label>
+				<input type="password" placeholder="Repeat Password" name="conpass" id="conpass" > <br> <br>
 
 				<label for="address">Address :</label>
 				<input type="text" placeholder="Enter Address" name="address" id="address" > <br> <br>
@@ -29,8 +29,8 @@
 				<label for="cname">Company Name :</label>
 				<input type="text" placeholder="Enter Company Name" name="cname" id="cname" > <br> <br>
 
-				<label for="pnumber">Phone Number :</label>
-				<input type="number" placeholder="Enter Phone Number" name="pnumber" id="pnumber" > <br> <br>
+				<label for="phone">Phone Number :</label>
+				<input type="number" placeholder="Enter Phone Number" name="phone" id="phone" > <br> <br>
 
 				<label for="city">City :</label>
 				<input type="text" placeholder="Enter City" name="city" id="city" > <br> <br>

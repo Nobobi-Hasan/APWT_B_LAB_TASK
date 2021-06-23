@@ -27,7 +27,6 @@ Route::get('/system/sales/physical_store', 'PhysicalController@index')->name('Ph
 Route::get('/system/sales/social_media', 'SocialController@index')->name('Social.index');
 Route::get('/system/sales/ecommerce', 'EcommerceController@index')->name('Ecommerce.index');
 
-
 Route::get('/system/product_management', 'ProductController@index')->name('Product.index');
 
 Route::get('/system/product_management/existing_products', 'ProductController@existingIndex')->name('Product.existingIndex');
